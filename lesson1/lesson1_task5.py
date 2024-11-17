@@ -1,7 +1,6 @@
 def print_num(num):
     print(num, end='')
 
-# Вызов функции 11 раз для вывода номера 88005553535
 print_num(8)
 print_num(8)
 print_num(0)
