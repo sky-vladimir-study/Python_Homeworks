@@ -29,7 +29,6 @@ def test_to_list():
      assert strig_utils.to_list("H,e,l,l,o,!", ",") == ["H", "e", "l", "l", "o", "!"]
      assert strig_utils.to_list("H.e.l.l.o.!", ".") == ["H", "e", "l", "l", "o", "!"]
 
-
 def test_contains():
      assert strig_utils.contains("SkyPro", "S") == True
      assert strig_utils.contains("SkyPro", "U") == False
@@ -39,10 +38,6 @@ def test_contains():
      assert strig_utils.contains(" ", " ") == True
      assert strig_utils.contains("", "") == True
      assert strig_utils.contains("", "!") == False
-
-
-
-
 
 def test_delete_symbol():
     assert strig_utils.delete_symbol("SkyPro", "k") == "SyPro"
@@ -55,9 +50,6 @@ def test_delete_symbol():
     assert strig_utils.delete_symbol("1234567890", "2345") == "167890"
     assert strig_utils.delete_symbol(" ", " ") == ""
     assert strig_utils.delete_symbol(". ", " ") == "."
-
-
-
 
 def test_starts_with():
     assert strig_utils.starts_with("SkyPro", "S") == True
