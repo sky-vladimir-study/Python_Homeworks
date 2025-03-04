@@ -1,0 +1,3 @@
+LOGIN = ""
+PASSWORD = ""
+COMPANY_ID = ""
