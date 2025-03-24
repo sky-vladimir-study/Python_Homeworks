@@ -85,5 +85,3 @@ def test_01_form(driver):
     for field_id in fields:
         assert "success" in driver.find_element(By.ID, field_id).get_attribute(
             "class"), f"Поле {field_id} должно быть подсвечено зеленым"
-
-    driver.quit()
